@@ -1,6 +1,8 @@
 import './App.css';
 import Navbar from './components/layout/Navbar';
 import React,{Component} from 'react';
+import UserItem from './components/users/UsersItem';
+
 
 export default class App extends Component {
     render() {
@@ -8,6 +10,7 @@ export default class App extends Component {
         return (
             <div className="App">
                  <Navbar />
+                 <UserItem />
             </div>
         );
     }
